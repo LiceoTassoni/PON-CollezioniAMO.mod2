@@ -1,0 +1,30 @@
+{
+  "name": "dbcolza",
+  "version": "0.0.1",
+  "description": "Manage db objects for translation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack src/index.js bin/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:LiceoTassoni/PON-CollezioniAMO.mod2.git"
+  },
+  "keywords": [
+    "education"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LiceoTassoni/PON-CollezioniAMO.mod2/issues"
+  },
+  "homepage": "https://github.com/LiceoTassoni/PON-CollezioniAMO.mod2/",
+  "dependencies": {
+    "mithril": "^1.1.6"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "webpack": "^4.29.0"
+  }
+}
