@@ -1,8 +1,11 @@
 var m = require("mithril");
 
 var CO = require("../models/CollectionObject");
-var serializeForm = require("../utils/serialize");
+var serializeForm = require("../utils/Serialize");
 
+var clearInput = function() {
+    document.getElementById("objData").reset();
+};
 
 var Table = {
     oninit : CO.loadNext,
@@ -14,7 +17,7 @@ var Table = {
                 onsubmit : function(e) {
                     e.preventDefault();
                     var formObj = serializeForm(document.getElementById("objData"));
-                    CO.saveData(formObj.fd);
+                    CO.saveData(formObj.fd).then(clearInput);
                 }
             }, [
                 m("h4.pure-u-1-1", "Nome:"),
@@ -29,7 +32,7 @@ var Table = {
                 m(".pure-u-1-2", m("textarea#engNotes.pure-input-1[name=engNotes][placeholder=Notes]")),
                 m("h4.pure-u-1-1", "Materiali (se riconoscibili)"),
                 m(".pure-u-1-2", CO.curObj["Materiali (se riconoscibili)"]),
-                m(".pure-u-1-2", m("input#engMaterials.pure-input-1[type=text][name=engNotes][placeholder=Materials]")),
+                m(".pure-u-1-2", m("input#engMaterials.pure-input-1[type=text][name=engMaterials][placeholder=Materials]")),
                 m("h4.pure-u-1-1", "Breve descrizione del funzionamento (se  conosciuta)"),
                 m(".pure-u-1-2", CO.curObj["Breve descrizione del funzionamento (se  conosciuta)"]),
                 m(".pure-u-1-2", [

@@ -98,7 +98,7 @@ def add_trial():
 #    return json.jsonify(ita.load_it_system())
 
 def wsgiserver():
-    app.run(port=8088)
+    app.run(port=8088)#, debug=True)
 
 if __name__ == "__main__":
     wsgiserver()

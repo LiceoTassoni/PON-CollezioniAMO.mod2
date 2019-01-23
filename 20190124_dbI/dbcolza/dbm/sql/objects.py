@@ -16,7 +16,7 @@ def save_data(conn, p_data):
     """Creates new class for user."""
 
     c = conn.cursor()
-    c.execute("INSERT INTO classi VALUES ( NULL, ?, ?, ?, ?, ?, ?)",
+    c.execute("INSERT INTO objects VALUES ( NULL, ?, ?, ?, ?, ?, ?)",
             (int(p_data["xcID"]), p_data["engName"], p_data["engNotes"],
                 p_data["engMaterials"], p_data["engWPrinc"], p_data["itaWPrinc"]))
     last_id = c.lastrowid
