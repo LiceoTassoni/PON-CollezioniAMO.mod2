@@ -8,11 +8,11 @@ setup(
     packages=find_packages(),
     license="MIT",
     package_data={'': ['static/*']},
-#    entry_points={
-#        'console_scripts': [
-#            'dbcolza = scremapy.app:wsgiserver'
-#        ],
-#    },
+    entry_points={
+        'console_scripts': [
+            'dbcolza = dbcolza.app:wsgiserver'
+        ],
+    },
     install_requires=[
         "flask",
         "flask-cors"#,

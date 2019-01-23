@@ -5,9 +5,9 @@ var CollectionObject = {
     loadNext : function() {
         return m.request({
             method : "GET",
-            url : "http://localhost:8088/getnext"
+            url : "http://localhost:8088/fetch"
         }).then(function(result){
-            CollectionObject.curObj = result.data;
+            CollectionObject.curObj = result;
         });
     }
 };
