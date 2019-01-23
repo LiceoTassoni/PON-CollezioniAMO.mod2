@@ -8,14 +8,13 @@ from flask_cors import CORS
 from .io import exceldb_gen
 from .util import *
 
-#from .dbm.sql import manager, school, user, classes, subjects, students, mistakes
+from .dbm.sql import manager, objects
 #from .dbm.cdb import manager as cmn, trial
 
 #
 #from . import italian as ita
 
-#c_db = cmn.initialize()
-#conn   = manager.initialize()
+conn   = manager.initialize()
 
 
 exceldb = exceldb_gen()
@@ -25,21 +24,15 @@ CORS(app)
 
 
 
-
-
 @app.route("/fetch")
 def fetch_object():
     return json.jsonify(next(exceldb))
 
-
-
-
-
-
-#@app.route("/addtrial", methods=["GET", "POST"])
-#def add_trial():
-#    trial.add_new_trial(c_db, request.form)
-#    return json.jsonify([0])
+@app.route("/save", methods=["GET", "POST"])
+def add_trial():
+    print(request.form)
+    objects.save_data(conn, request.form)
+    return json.jsonify([0])
 #
 #@app.route("/listtrials")
 #def trials_list():
