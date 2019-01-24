@@ -5,7 +5,11 @@ var serializeForm = require("../utils/Serialize");
 
 var clearInput = function() {
     document.getElementById("objData").reset();
-};
+},
+    classe = [ "Andreoli", "ARGNANI", "BENEDETTI", "BIGARELLI", "BRAGLIA", "BUSSETTI",
+    "CELLINI", "FERRARI", "FIANDRI", "GOLDONI A.", "GOLDONI C.", "JELALI",
+    "MALAGOLI", "MANZONI", "MASSA", "MESCHIARI", "MESINI", "MONELLI",
+    "NANNI", "PALOMBA", "PICCININI", "PUGNAGHI", "SCIPIONI", "TRALLI" ];
 
 var Table = {
     oninit : CO.loadNext,
@@ -23,6 +27,10 @@ var Table = {
                 m("h4.pure-u-1-1", "Nome:"),
                 m(".pure-u-1-2", CO.curObj["Nome assegnato (eventualmente provvisorio)"]),
                 m(".pure-u-1-2", m("input#engName.pure-input-1[name=engName][type=text][placeholder=English name]")),
+                m("h4.pure-u-1-1", "'Armadio (indicare la lettera presente a fianco della serratura)'"),
+                m(".pure-u-1-1", CO.curObj["'Armadio (indicare la lettera presente a fianco della serratura)'"]),
+                m("h4.pure-u-1-1", "Ripiano (dal basso all'alto)"),
+                m(".pure-u-1-1", CO.curObj["Ripiano (dal basso all'alto)"]),
                 m("h4.pure-u-1-1", "Ambito fisico"),
                 m(".pure-u-1-1", CO.curObj["Ambito fisico"]),
                 m("h4.pure-u-1-1", "Stato di conservazione"),
@@ -41,6 +49,13 @@ var Table = {
                 ]),
                 m("h4.pure-u-1-1", "Risorse (testi, siti web) utilizzate"),
                 m(".pure-u-1-1", CO.curObj["Risorse (testi, siti web) utilizzate"]),
+                m("h4.pure-u-1-1", "Gruppo di lavoro"),
+                m(".pure-u-1-1", classe.map(function(alunno, i){
+                    return [
+                        m("input[type=checkbox]", {value : i}),
+                        m("span.nome-alunno", alunno + "       ")
+                    ];
+                })),
                 m("input#xcID[type=hidden][name=xcID]", { value : CO.curObj["ID"]}),
                 m("input#salva.pure-u-1-1.pure-button.pure-button-primary.pure-button-xlarge[type=submit][value=Salva]")
             ]);

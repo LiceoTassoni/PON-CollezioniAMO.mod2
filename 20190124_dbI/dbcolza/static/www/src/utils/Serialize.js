@@ -6,7 +6,8 @@
 
 var serializeForm = function(formElement) {
     var chNd = formElement.elements,
-        outpObj = {};
+        outpObj = {},
+        group = 0;
     outpObj.fd = new FormData();
 
     for (var i = 0; i < chNd.length; i++) {
@@ -20,6 +21,11 @@ var serializeForm = function(formElement) {
             if ((attTp === "radio") && (chNd[i].checked)) {
                 outpObj.fd.append(attName, chNd[i].value);
                 outpObj[attName] = chNd[i].value;
+            }
+            if ((attTp === "checkbox") && (chNd[i].checked)) {
+                group = group + Math.pow(2, parseInt(chNd[i].value));
+                outpObj.fd.append("gruppo", group);
+                outpObj["gruppo"] = group;
             }
         }
         if (chNd[i].tagName === "SELECT") {

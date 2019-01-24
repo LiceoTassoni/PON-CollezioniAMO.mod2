@@ -3,5 +3,11 @@
 }
 
 #salva {
-    margin-top: 12px;
+    margin-top: 1200px;
+}
+
+.nome-alunno {
+    margin-right: 30px;
+    margin-bottom: 15px;
+    font-size: 120%;
 }
