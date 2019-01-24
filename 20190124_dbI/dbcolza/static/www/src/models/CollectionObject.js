@@ -5,7 +5,7 @@ var CollectionObject = {
     loadNext : function() {
         return m.request({
             method : "GET",
-            url : "http://localhost:8088/fetch"
+            url : "http://192.168.2.127:8088/fetch"
         }).then(function(result){
             CollectionObject.curObj = result;
         });
@@ -13,7 +13,7 @@ var CollectionObject = {
     saveData : function(pData){
         return m.request({
             method : "POST",
-            url : "http://localhost:8088/save",
+            url : "http://192.168.2.127:8088/save",
             data : pData
         }).then(function() {
             CollectionObject.loadNext();

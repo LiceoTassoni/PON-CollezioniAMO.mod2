@@ -27,6 +27,9 @@ def read_exel_db():
     """Reads excel database"""
 
     exceldb = pd.read_excel(opj(static_path(), "collezioniamo_excel.xlsx"))
+    #exceldb.sort_values(by=["Giudizio complessivo sul livello di interesse dell'oggetto ai fini espositivi"],
+    #ascending=False)
+    #print(exceldb["Giudizio complessivo sul livello di interesse dell'oggetto ai fini espositivi"])
     ### insert sorting here
 
 

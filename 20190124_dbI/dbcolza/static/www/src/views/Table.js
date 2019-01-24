@@ -28,7 +28,7 @@ var Table = {
                 m(".pure-u-1-2", CO.curObj["Nome assegnato (eventualmente provvisorio)"]),
                 m(".pure-u-1-2", m("input#engName.pure-input-1[name=engName][type=text][placeholder=English name]")),
                 m("h4.pure-u-1-1", "'Armadio (indicare la lettera presente a fianco della serratura)'"),
-                m(".pure-u-1-1", CO.curObj["'Armadio (indicare la lettera presente a fianco della serratura)'"]),
+                m(".pure-u-1-1", CO.curObj["Armadio (indicare la lettera presente a fianco della serratura)"]),
                 m("h4.pure-u-1-1", "Ripiano (dal basso all'alto)"),
                 m(".pure-u-1-1", CO.curObj["Ripiano (dal basso all'alto)"]),
                 m("h4.pure-u-1-1", "Ambito fisico"),
