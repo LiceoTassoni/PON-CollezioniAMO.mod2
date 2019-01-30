@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>COLLEZIONI-AMO - Il Museo Virtuale 2.0</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+
+      h2 {
+          border-bottom: 1px solid black;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+      }
+      .inverse {
+        background: #272822;
+        color: #777872;
+        text-shadow: 0 0 20px #333;
+      }
+      .inverse h1, .inverse h2 {
+        color: #f3f3f3;
+        line-height: 0.8em;
+      }
+      .small-img img{
+          width: 5%;
+      }
+
+      .highlight {
+          background-color: #ff0;
+      }
+      .whole-img img{
+          width: 85%;
+      }
+
+      .whole-img-small img{
+          width: 65%;
+      }
+      .small-img img{
+          width: 5%;
+      }
+      .whole-center-img img{
+          margin-top:100px;
+          width: 100%;
+      }
+
+      .multipl-center-img img{
+          width: 85%;
+      }
+
+      .left_col_1_2{
+          width: 50%;
+          float: left;
+      }
+      .right_col_1_2{
+              width: 50%;
+              float: right;
+      }
+      .linkbig{
+          font-size: 200%;
+      }
+      .left_col_2_3{
+          width: 66%;
+          float: left;
+      }
+      .right_col_1_3{
+          width: 33%;
+          float: right;
+      }
+      .right_col_1_3 img{ width: 80%; margin-left: 10px}
+      .credit{
+          font-size:60%;
+          font-style: italic;
+          text-align: right;
+      }
+      table {
+          border-collapse: collapse;
+      }
+      th, td {
+          border:1px solid black;
+      }
+      @page {
+          size: 1024px 768px;
+          margin: 0;
+      }
+
+      @media print {
+          .remark-slide-scaler {
+              width: 100% !important;
+              height: 100% !important;
+              transform: scale(1) !important;
+              top: 0 !important;
+              left: 0 !important;
+          }
+      }
+    </style>
+  </head>
+  <body>
+
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script>
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-beta1/katex.min.css" integrity="sha384-VEnyslhHLHiYPca9KFkBB3CMeslnM9CzwjxsEbZTeA21JBm7tdLwKoZmCt3cZTYD" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-beta1/katex.min.js" integrity="sha384-O4hpKqcplNCe+jLuBVEXC10Rn1QEqAmX98lKAIFBEDxZI0a+6Z2w2n8AEtQbR4CD" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-beta1/contrib/auto-render.min.js" integrity="sha384-IiI65aU9ZYub2MY9zhtKd1H2ps7xxf+eb2YFG9lX6uRqpXCvBTOidPRCXCrQ++Uc" crossorigin="anonymous"></script> //-->
+    <script>
+        var options = {};
+    /*    var renderMath = function() {
+            renderMathInElement(document.body);
+            // or if you want to use $...$ for math,
+            // renderMathInElement(document.body, {delimiters: [ // mind the order of delimiters(!?)
+            //     {left: "$$", right: "$$", display: true},
+            //     {left: "$", right: "$", display: false},
+            //     {left: "\\[", right: "\\]", display: true},
+            //     {left: "\\(", right: "\\)", display: false},
+            // ]});
+        } */
+      var slideshow = remark.create({
+          sourceUrl : '20190130_present.md',
+          slideNumberFormat : ""
+      });//, renderMath);
+
+      MathJax.Hub.Config({
+          tex2jax: {
+              skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+          }
+      });
+
+      MathJax.Hub.Configured();
+    </script>
+
+  </body>
+</html>
