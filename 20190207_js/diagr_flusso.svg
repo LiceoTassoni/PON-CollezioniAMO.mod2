@@ -1,0 +1,26 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m41.247489,153.205442l101.499887,-36.999995l101.500126,36.999995l-101.500126,36.999995l-101.499887,-36.999995z" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <path stroke="#000" id="svg_3" d="m57.007506,74.498098l34.000003,-61.000003l135.999997,0l-34.000003,61.000003l-135.999997,0z" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="#fff"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_4" y="50.421875" x="137.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">a</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_5" y2="73.421875" x2="142.5" y1="116.421875" x1="142.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_6" y="158.421875" x="116.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">a &gt; 0</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_7" y2="153.421875" x2="344.5" y1="153.421875" x1="243.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_8" y2="276.798955" x2="142.5" y1="190.421875" x1="142.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <path stroke="#000" id="svg_9" d="m49.00751,336.4981l34,-61l136,0l-34.00001,61l-135.99999,0z" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="#fff"/>
+  <path stroke="#000" id="svg_10" d="m328.00751,182.4981l34,-61l136,0l-34.00001,61l-135.99999,0z" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="#fff"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_11" y="310.421875" x="84.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">"positivo!"</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_13" y="161.421875" x="363.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">negativo!"</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_14" y="244.421875" x="159.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SI</text>
+  <text style="cursor: move;" stroke="#000" transform="matrix(1.0441075563430786,0,0,1,-7.035155236721039,0) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_15" y="139.421875" x="269.64191" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">NO</text>
+ </g>
+</svg>
