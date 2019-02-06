@@ -1,0 +1,33 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse ry="41.499999" rx="74.000002" id="svg_1" cy="53.949996" cx="291.500003" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <ellipse ry="32.5" rx="70.5" id="svg_3" cy="127.949997" cx="144" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <ellipse ry="36" rx="66" id="svg_4" cy="135.449997" cx="437.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <ellipse ry="36" rx="66" id="svg_6" cy="222.449997" cx="281.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <ellipse ry="36" rx="66" id="svg_7" cy="245.449997" cx="499.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <ellipse ry="36" rx="66" id="svg_8" cy="323.449997" cx="382.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_9" y2="79.449997" x2="232.5" y1="106.449997" x1="200.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_10" y2="106.449997" x2="392.5" y1="77.449997" x1="352.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_11" y2="161.449997" x2="390.5" y1="198.449997" x1="330.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_12" y2="210.449997" x2="497.5" y1="164.449997" x1="478.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_13" y2="288.449997" x2="387.5" y1="172.449997" x1="421.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <text transform="matrix(1.27569, 0, 0, 1.43393, -71.9718, -16.1723)" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_14" y="57.449997" x="261.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">html</text>
+  <text transform="matrix(1.27569, 0, 0, 1.43393, -71.9718, -16.1723)" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_15" y="102.779963" x="139.213239" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">head</text>
+  <text style="cursor: move;" transform="matrix(1.27569, 0, 0, 1.43393, -71.9718, -16.1723)" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_16" y="107.661652" x="370.460648" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">body</text>
+  <text style="cursor: move;" transform="matrix(1.27569, 0, 0, 1.43393, -71.9718, -16.1723)" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_17" y="170.426224" x="251.309436" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">h1</text>
+  <text transform="matrix(1.27569, 0, 0, 1.43393, -71.9718, -16.1723)" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_18" y="241.559396" x="351.647295" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">p</text>
+  <text transform="matrix(1.27569, 0, 0, 1.43393, -71.9718, -16.1723)" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_19" y="187.163438" x="433.955699" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">img</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_20" y2="230.449997" x2="97.5" y1="160.449997" x1="136.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <ellipse ry="41.499999" rx="74.000002" id="svg_21" cy="267.949996" cx="89.500003" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <text transform="matrix(1.27569, 0, 0, 1.43393, -71.9718, -16.1723)" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_22" y="204.598033" x="95.315417" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">title</text>
+ </g>
+</svg>
